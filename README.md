@@ -1,46 +1,44 @@
-Certainly! You can combine all the content into a single file, for example, `README.md`. Here's how you can structure it:
+# Pcap Analyzer (Network Packet Analyzer)
 
-```markdown
-# Pcap Analyzer
-
-## Overview
-Pcap Analyzer is a Python application built with Tkinter and Scapy for analyzing network packet data from pcap files. It provides a graphical user interface (GUI) for users to browse pcap files, analyze packet contents, view packet information in tabular format, and perform various analyses such as extracting HTTP passwords and summarizing packet details.
+## Description
+Pcap Analyzer is a Python-based tool for analyzing network packet data stored in pcap files. It provides a graphical user interface (GUI) built with Tkinter, allowing users to browse pcap files, analyze packet data, and perform various operations such as viewing packet details, summarizing information, and extracting login passwords from HTTP packets.
 
 ## Features
-- Browse and select pcap files for analysis
-- Analyze packet data and display information in a table
-- Extract HTTP passwords from packet payloads
-- Summarize packet information including source and destination addresses, ports, and more
-- Customize table views by selecting preferred columns
-- Dark mode and customizable color themes
+- Browse and select pcap files for analysis.
+- Analyze packet data and display it in a table format.
+- View detailed information about packets including source and destination addresses, ports, and payload.
+- Summarize packet data including counts and unique addresses.
+- Extract HTTP login passwords from packet payloads.
+- Choose specific columns for displaying in the table.
 
-## Requirements
+## Dependencies
 - Python 3.x
 - Tkinter
 - Pandas
+- Pandastable
 - Scapy
-- PIL
-- PandasTable
+- PIL (Python Imaging Library)
 
 ## Installation
-1. Clone the repository:
+1. Clone or download the repository to your local machine.
    ```
-   git clone https://github.com/softwarica-github/coursework2-GxbNt.git
+   https://github.com/softwarica-github/coursework2-GxbNt.git
    ```
-2. Install the required dependencies:
+2. Install the required dependencies using pip:
    ```
    pip install -r requirements.txt
    ```
-3. Run the application:
+3. Run the `main.py` script:
    ```
-   python pcap_analyzer.py
+   python main.py
    ```
 
 ## Usage
-1. Launch the application.
-2. Click on the "Browse" button to select a pcap file for analysis.
-3. Click on the "Analyze" button to start analyzing the selected pcap file.
-4. After analysis, use the provided buttons to view packet data, extract HTTP passwords, summarize packet information, and customize table views.
+1. Launch the application by running the `main.py` script.
+2. Use the "Browse" button to select a pcap file for analysis.
+3. Click on the "Analyze" button to process the selected pcap file.
+4. Once analysis is complete, use the provided buttons to perform various operations such as viewing tables, summarizing data, and extracting login passwords.
+5. Explore the different features and functionalities offered by the application.
 
 ## Author
-@Bishal Ray
+- Author: Bishal Ray (@Bishal Ray)
